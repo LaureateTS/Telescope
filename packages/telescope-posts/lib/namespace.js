@@ -1,3 +1,4 @@
+/* global Mongo */
 /**
  * The global namespace/collection for Posts.
  * @namespace Posts

@@ -1,8 +1,13 @@
+/* global Settings */
+/* global Telescope */
+/* global ReactiveVar */
+/* global Template */
+/* global Posts */
 // see https://www.discovermeteor.com/blog/template-level-subscriptions/
 
 /*
 
-This template acts as the controller that sets and manages the reactive context 
+This template acts as the controller that sets and manages the reactive context
 for the embedded postsList template. It receives its parameters from a "caller" template.
 
 */
@@ -61,7 +66,7 @@ Template.posts_list_controller.onCreated(function () {
       instance.terms.set(subscriptionTerms);
       instance.ready.set(true);
     }
-  
+
   });
 
 });
